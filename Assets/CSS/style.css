@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.main-hero .container .hero {
+    background: #001D37;
+    color: #FFFFFF;
+}
