@@ -10,6 +10,8 @@
     --white: #ffffff;
     --circle-right-bg: #D660FF;
     --circle-top-bg: #6079FF;
+    --gray-color: #626262;
+    --gray-dip-color: #A2A2A2;
 }
 
 a {
@@ -127,12 +129,44 @@ img {
 }
 
 /* feature cart sections */
+.feature-section {
+    margin-top: 150px;
+}
+
 .feature-cart-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .feature-cart {
     display: flex;
     border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    height: 170px;
+    overflow: hidden;
+}
+
+.feature-cart img {
+    height: 100%;
+    width: 200px;
+}
+
+.cart-description {
+    padding: 10px;
+}
+
+.cart-description h3 {
+    display: inline-flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-description p {
+    color: var(--gray-color);
+    margin-bottom: 10px;
+}
+
+.cart-description span {
+    color: var(--gray-dip-color);
 }
